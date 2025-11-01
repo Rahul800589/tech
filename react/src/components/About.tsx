@@ -110,11 +110,12 @@ const About: React.FC = () => {
       <section className="py-20 max-w-7xl mx-auto px-6 lg:px-8 my-12 bg-white/10 backdrop-blur-sm rounded-3xl border border-white/20 text-gray-100">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative">
-            <img
+{/*             <img
               src="https://images.unsplash.com/photo-1480429370139-e0132c086e2a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWFufGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600"
               alt="Aryan Singh - CEO"
               className="w-full max-w-md mx-auto rounded-2xl shadow-xl"
-            />
+            /> */}
+             
           </div>
 
           <div>
