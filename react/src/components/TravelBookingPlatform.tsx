@@ -24,7 +24,8 @@ const Card: React.FC<{
   </article>
 );
 
-export default function TravelBookingPlatform(): JSX.Element {
+// export default function TravelBookingPlatform(): JSX.Element {
+export default function TravelBookingPlatform() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#04121a] to-[#0b2732] text-white py-32 px-4">
       <div className="max-w-6xl mx-auto">

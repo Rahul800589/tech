@@ -10,7 +10,8 @@ const FeatureCard: React.FC<{
   </div>
 );
 
-export default function SaaSAnalyticsDashboard(): JSX.Element {
+// export default function SaaSAnalyticsDashboard(): JSX.Element {
+export default function SaaSAnalyticsDashboard() {
   return (
     <main className="bg-gradient-to-b from-[#05121b] to-[#0d2835] min-h-screen text-white py-32 px-4">
       <div className="max-w-7xl mx-auto">

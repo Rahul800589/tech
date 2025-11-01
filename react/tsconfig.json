@@ -43,6 +43,24 @@
 //   "include": ["src"]
 // }
 
+// {
+//   "compilerOptions": {
+//     "target": "ES2022",
+//     "lib": ["ES2022", "DOM", "DOM.Iterable"],
+//     "module": "ESNext",
+//     "jsx": "react-jsx",
+//     "moduleResolution": "bundler",
+//     "strict": true,
+//     "skipLibCheck": true,
+//     "allowJs": true,
+//     "baseUrl": ".",
+//     "paths": {
+//       "@/*": ["src/*"]
+//     }
+//   },
+//   "include": ["src"]
+// }
+
 {
   "compilerOptions": {
     "target": "ES2022",
@@ -53,12 +71,16 @@
     "strict": true,
     "skipLibCheck": true,
     "allowJs": true,
+    "checkJs": false,
+    "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
     }
   },
-  "include": ["src"]
+  // "include": ["src", "**/*.jsx", "**/*.tsx"]
+  "include": [ "src","global.d.ts"]
+
 }
 
 

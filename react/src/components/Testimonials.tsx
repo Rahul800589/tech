@@ -93,13 +93,13 @@ const Testimonials: React.FC = () => {
   </div>
 </section>
 
-      <section class="bg-gradient-to-r from-[#2f4371] to-[#2a384a] dark:bg-gray-900 py-20">
-        <div class="max-w-7xl mx-auto px-6 lg:px-8">
-          <div class="text-center mb-16">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-100 mb-4">
+      <section className="bg-gradient-to-r from-[#2f4371] to-[#2a384a] dark:bg-gray-900 py-20">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-100 mb-4">
               What Our Clients Say
             </h2>
-            <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-400 max-w-2xl mx-auto">
               Real feedback from real clients who have experienced the
               ATS GLOBAL TECH difference.
             </p>
@@ -418,32 +418,32 @@ const Testimonials: React.FC = () => {
   </div>
 </section>
 
-    <section class="py-20 bg-gradient-to-r from-[#222f4c] to-[#303e4f] text-white">
-  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <section className="py-20 bg-gradient-to-r from-[#222f4c] to-[#303e4f] text-white">
+  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 
-    <h2 class="text-3xl md:text-4xl font-bold mb-6">
+    <h2 className="text-3xl md:text-4xl font-bold mb-6">
       Ready to Join Our Success Stories?
     </h2>
 
-    <p class="text-xl mb-8 text-gray-300">
+    <p className="text-xl mb-8 text-gray-300">
       Let us help you achieve similar results. Start your digital
       transformation journey today and become our next success story.
     </p>
 
-    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+    <div className="flex flex-col sm:flex-row gap-4 justify-center">
 
-      <a href="/contact" class="inline-flex items-center justify-center gap-2 text-sm font-medium bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 transition-all duration-300 text-white h-11 rounded-md px-8 py-3 shadow-lg hover:shadow-xl">
+      <a href="/contact" className="inline-flex items-center justify-center gap-2 text-sm font-medium bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 transition-all duration-300 text-white h-11 rounded-md px-8 py-3 shadow-lg hover:shadow-xl">
         Start Your Project
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round"
-          stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 h-5 w-5">
+          stroke-linejoin="round" className="lucide lucide-arrow-right ml-2 h-5 w-5">
           <path d="M5 12h14"></path>
           <path d="m12 5 7 7-7 7"></path>
         </svg>
       </a>
 
       <a href="/projects"
-        class="inline-flex items-center justify-center gap-2 text-sm font-medium border border-white/30 bg-transparent hover:bg-white/10 transition-all duration-300 text-white h-11 rounded-md px-8 py-3">
+        className="inline-flex items-center justify-center gap-2 text-sm font-medium border border-white/30 bg-transparent hover:bg-white/10 transition-all duration-300 text-white h-11 rounded-md px-8 py-3">
         View Our Work
       </a>
 

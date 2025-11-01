@@ -10,7 +10,8 @@ const FeatureCard: React.FC<{ title: string; description: string }> = ({
   </div>
 );
 
-export default function FinTechMobileBankingApp(): JSX.Element {
+// export default function FinTechMobileBankingApp(): JSX.Element {
+export default function FinTechMobileBankingApp() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#050f19] to-[#0c2330] text-white py-32 px-4">
       <div className="max-w-6xl mx-auto">

@@ -17,24 +17,24 @@ import { House, Zap, CircleCheckBig, Target, TrendingUp, ArrowRight, Gamepad2,
 const Industries: FC = () => {
   return (
     <>
-     <section class="relative py-32 bg-gradient-to-r from-[#1c2b4d] to-[#303e4f] overflow-hidden">
-  <div class="absolute inset-0 h-[470px] sm:h-[900px]"></div>
+     <section className="relative py-32 bg-gradient-to-r from-[#1c2b4d] to-[#303e4f] overflow-hidden">
+  <div className="absolute inset-0 h-[470px] sm:h-[900px]"></div>
 
-  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 text-center">
-    <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+  <div className="relative max-w-7xl mx-auto px-4 sm:px-6 text-center">
+    <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
       Industries We Serve
     </h1>
 
-    <p class="text-xl text-white/90 mb-10 max-w-4xl mx-auto leading-relaxed">
+    <p className="text-xl text-white/90 mb-10 max-w-4xl mx-auto leading-relaxed">
       We bring deep industry expertise and innovative technology solutions
       to transform businesses across diverse sectors, helping
       organizations achieve their digital transformation goals with
       tailored approaches that address specific industry challenges.
     </p>
 
-    <div class="flex flex-col sm:flex-row gap-6 justify-center">
+    <div className="flex flex-col sm:flex-row gap-6 justify-center">
       <button
-        class="inline-flex items-center justify-center gap-2 whitespace-nowrap h-11 rounded-md bg-white text-[#1c2b4d] hover:bg-gray-100 px-10 py-4 text-lg font-semibold shadow-lg transition-colors"
+        className="inline-flex items-center justify-center gap-2 whitespace-nowrap h-11 rounded-md bg-white text-[#1c2b4d] hover:bg-gray-100 px-10 py-4 text-lg font-semibold shadow-lg transition-colors"
       >
         Explore Industries
         <svg
@@ -47,7 +47,7 @@ const Industries: FC = () => {
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
-          class="lucide lucide-arrow-right ml-2 h-5 w-5"
+          className="lucide lucide-arrow-right ml-2 h-5 w-5"
         >
           <path d="M5 12h14"></path>
           <path d="m12 5 7 7-7 7"></path>
@@ -55,7 +55,7 @@ const Industries: FC = () => {
       </button>
 
       <button
-        class="inline-flex items-center justify-center gap-2 whitespace-nowrap h-11 rounded-md border-2 border-white text-white hover:bg-white/10 px-10 py-4 text-lg font-medium backdrop-blur-sm transition-colors"
+        className="inline-flex items-center justify-center gap-2 whitespace-nowrap h-11 rounded-md border-2 border-white text-white hover:bg-white/10 px-10 py-4 text-lg font-medium backdrop-blur-sm transition-colors"
       >
         Schedule Consultation
       </button>
@@ -180,13 +180,13 @@ const Industries: FC = () => {
         </div>
       </div>
     </section>
-   <section class="py-24 bg-gradient-to-r from-[#0f172a] to-[#334155]">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-20">
-            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Specialized Industry Solutions</h2>
-            <p class="text-xl text-gray-300 max-w-3xl mx-auto">Our industry-specific expertise helps organizations overcome unique challenges and capitalize on opportunities in their respective markets</p>
+   <section className="py-24 bg-gradient-to-r from-[#0f172a] to-[#334155]">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-20">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Specialized Industry Solutions</h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">Our industry-specific expertise helps organizations overcome unique challenges and capitalize on opportunities in their respective markets</p>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             
             <div className="rounded-lg text-card-foreground overflow-hidden hover:shadow-2xl transition-all duration-500 border-0 shadow-lg group bg-white/10 backdrop-blur-md">
                 {/* Image Section */}
@@ -806,22 +806,22 @@ const Industries: FC = () => {
         </div>
     </div>
 </section>
-   <section class="py-24 bg-gradient-to-r from-[#1c2b4d] to-[#303e4f]">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-16">
-      <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+   <section className="py-24 bg-gradient-to-r from-[#1c2b4d] to-[#303e4f]">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-16">
+      <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
         Why Choose Us for Your Industry?
       </h2>
-      <p class="text-xl text-white/80 max-w-3xl mx-auto">
+      <p className="text-xl text-white/80 max-w-3xl mx-auto">
         Our deep industry knowledge combined with cutting-edge technology
         expertise makes us the ideal partner for your digital transformation
         journey
       </p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
       <div
-        class="text-center p-8 rounded-2xl bg-white/10 hover:bg-white/20 hover:shadow-lg transition-all duration-300"
+        className="text-center p-8 rounded-2xl bg-white/10 hover:bg-white/20 hover:shadow-lg transition-all duration-300"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -833,23 +833,23 @@ const Industries: FC = () => {
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
-          class="lucide lucide-shield h-16 w-16 text-orange-400 mx-auto mb-6"
+          className="lucide lucide-shield h-16 w-16 text-orange-400 mx-auto mb-6"
         >
           <path
             d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
           ></path>
         </svg>
-        <h3 class="text-xl font-bold text-white mb-4">
+        <h3 className="text-xl font-bold text-white mb-4">
           Industry Compliance
         </h3>
-        <p class="text-white/80">
+        <p className="text-white/80">
           We ensure all solutions meet industry-specific regulations and
           compliance requirements including HIPAA, PCI DSS, SOX, and GDPR.
         </p>
       </div>
 
       <div
-        class="text-center p-8 rounded-2xl bg-white/10 hover:bg-white/20 hover:shadow-lg transition-all duration-300"
+        className="text-center p-8 rounded-2xl bg-white/10 hover:bg-white/20 hover:shadow-lg transition-all duration-300"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -861,22 +861,22 @@ const Industries: FC = () => {
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
-          class="lucide lucide-users h-16 w-16 text-orange-400 mx-auto mb-6"
+          className="lucide lucide-users h-16 w-16 text-orange-400 mx-auto mb-6"
         >
           <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
           <circle cx="9" cy="7" r="4"></circle>
           <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
           <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
         </svg>
-        <h3 class="text-xl font-bold text-white mb-4">Domain Experts</h3>
-        <p class="text-white/80">
+        <h3 className="text-xl font-bold text-white mb-4">Domain Experts</h3>
+        <p className="text-white/80">
           Our team includes industry veterans who understand your unique
           challenges and can provide insights that generic providers cannot.
         </p>
       </div>
 
       <div
-        class="text-center p-8 rounded-2xl bg-white/10 hover:bg-white/20 hover:shadow-lg transition-all duration-300"
+        className="text-center p-8 rounded-2xl bg-white/10 hover:bg-white/20 hover:shadow-lg transition-all duration-300"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -888,16 +888,16 @@ const Industries: FC = () => {
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
-          class="lucide lucide-star h-16 w-16 text-orange-400 mx-auto mb-6"
+          className="lucide lucide-star h-16 w-16 text-orange-400 mx-auto mb-6"
         >
           <path
             d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
           ></path>
         </svg>
-        <h3 class="text-xl font-bold text-white mb-4">
+        <h3 className="text-xl font-bold text-white mb-4">
           Proven Track Record
         </h3>
-        <p class="text-white/80">
+        <p className="text-white/80">
           With 200+ successful projects across various industries, we have the
           experience and expertise to deliver results that matter.
         </p>
@@ -906,19 +906,19 @@ const Industries: FC = () => {
   </div>
 </section>
 
-      <section class="py-24 bg-gradient-to-r from-[#1a2940] to-[#24344d]
+      <section className="py-24 bg-gradient-to-r from-[#1a2940] to-[#24344d]
  text-white">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 class="text-4xl md:text-5xl font-bold mb-8">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-4xl md:text-5xl font-bold mb-8">
             Ready to Transform Your Industry?
           </h2>
-          <p class="text-xl mb-12 opacity-90 max-w-3xl mx-auto">
+          <p className="text-xl mb-12 opacity-90 max-w-3xl mx-auto">
             Let's discuss how our industry-specific solutions can help you
             overcome challenges, streamline operations, and achieve breakthrough
             results in your market.
           </p>
-          <div class="flex flex-col sm:flex-row gap-6 justify-center mb-12">
-            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-11 rounded-md bg-white text-orange-600 hover:bg-orange-50 px-12 py-6 text-xl font-semibold">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
+            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-11 rounded-md bg-white text-orange-600 hover:bg-orange-50 px-12 py-6 text-xl font-semibold">
               Schedule Industry Consultation
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -930,13 +930,13 @@ const Industries: FC = () => {
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                class="lucide lucide-arrow-right ml-2 h-6 w-6"
+                className="lucide lucide-arrow-right ml-2 h-6 w-6"
               >
                 <path d="M5 12h14"></path>
                 <path d="m12 5 7 7-7 7"></path>
               </svg>
             </button>
-            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-secondary h-11 rounded-md border-2 border-white text-black hover:bg-white/10 px-12 py-6 text-xl backdrop-blur-sm">
+            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-secondary h-11 rounded-md border-2 border-white text-black hover:bg-white/10 px-12 py-6 text-xl backdrop-blur-sm">
               View Case Studies
             </button>
           </div>

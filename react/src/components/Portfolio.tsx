@@ -164,27 +164,27 @@ const technologies: Tech[] = [
 const Portfolio: FC = () => {
   return (
     <>
-     <section class=" lg:py-20 bg-gradient-to-r from-[#1a2940] to-[#24344d]
+     <section className=" lg:py-20 bg-gradient-to-r from-[#1a2940] to-[#24344d]
  lg:h-[450px] sm:h-[550px] text-white">
-  <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-    <div class="text-center">
-      <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+  <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+    <div className="text-center">
+      <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
         <p>
           Our
-          <span class="ml-6 text-orange-400">Portfolio</span>
+          <span className="ml-6 text-orange-400">Portfolio</span>
         </p>
       </h1>
-      <p class="text-xl mb-12 max-w-3xl mx-auto opacity-90 text-gray-200">
+      <p className="text-xl mb-12 max-w-3xl mx-auto opacity-90 text-gray-200">
         Discover our innovative solutions and successful projects that
         have transformed businesses across various industries. Each
         project represents our commitment to excellence and
         cutting-edge technology.
       </p>
 
-      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <div className="flex flex-col sm:flex-row gap-4 justify-center">
         <a href="/contact">
           <button
-            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-bold transition-colors bg-white text-[#1c2b4d] hover:bg-gray-100 h-11 rounded-md px-8 py-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#1c2b4d]"
+            className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-bold transition-colors bg-white text-[#1c2b4d] hover:bg-gray-100 h-11 rounded-md px-8 py-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#1c2b4d]"
           >
             Start Your Project
           </button>
@@ -192,7 +192,7 @@ const Portfolio: FC = () => {
 
         <a href="/services">
           <button
-            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-bold border border-white text-white hover:bg-white hover:text-[#1c2b4d] h-11 rounded-md px-8 py-3 transition-colors"
+            className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-bold border border-white text-white hover:bg-white hover:text-[#1c2b4d] h-11 rounded-md px-8 py-3 transition-colors"
           >
             View Services
           </button>
@@ -202,60 +202,60 @@ const Portfolio: FC = () => {
   </div>
 </section>
 
-     <section class="py-16 bg-gradient-to-r from-[#1a2940] to-[#24344d]
+     <section className="py-16 bg-gradient-to-r from-[#1a2940] to-[#24344d]
  text-white">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
-      <div class="text-center">
-        <div class="text-4xl font-bold text-orange-400 mb-2">15+</div>
-        <div class="text-gray-200 font-medium">Projects Completed</div>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+      <div className="text-center">
+        <div className="text-4xl font-bold text-orange-400 mb-2">15+</div>
+        <div className="text-gray-200 font-medium">Projects Completed</div>
       </div>
-      <div class="text-center">
-        <div class="text-4xl font-bold text-orange-400 mb-2">50+</div>
-        <div class="text-gray-200 font-medium">Happy Clients</div>
+      <div className="text-center">
+        <div className="text-4xl font-bold text-orange-400 mb-2">50+</div>
+        <div className="text-gray-200 font-medium">Happy Clients</div>
       </div>
-      <div class="text-center">
-        <div class="text-4xl font-bold text-orange-400 mb-2">50+</div>
-        <div class="text-gray-200 font-medium">Team Members</div>
+      <div className="text-center">
+        <div className="text-4xl font-bold text-orange-400 mb-2">50+</div>
+        <div className="text-gray-200 font-medium">Team Members</div>
       </div>
-      <div class="text-center">
-        <div class="text-4xl font-bold text-orange-400 mb-2">7</div>
-        <div class="text-gray-200 font-medium">Years Experience</div>
+      <div className="text-center">
+        <div className="text-4xl font-bold text-orange-400 mb-2">7</div>
+        <div className="text-gray-200 font-medium">Years Experience</div>
       </div>
-      <div class="text-center">
-        <div class="text-4xl font-bold text-orange-400 mb-2">100%</div>
-        <div class="text-gray-200 font-medium">Client Satisfaction</div>
+      <div className="text-center">
+        <div className="text-4xl font-bold text-orange-400 mb-2">100%</div>
+        <div className="text-gray-200 font-medium">Client Satisfaction</div>
       </div>
-      <div class="text-center">
-        <div class="text-4xl font-bold text-orange-400 mb-2">24/7</div>
-        <div class="text-gray-200 font-medium">Support Available</div>
+      <div className="text-center">
+        <div className="text-4xl font-bold text-orange-400 mb-2">24/7</div>
+        <div className="text-gray-200 font-medium">Support Available</div>
       </div>
     </div>
   </div>
 </section>
 
-      <section class="py-12 bg-gradient-to-r from-[#1c2b4d] to-[#303e4f] text-amber-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="flex flex-wrap justify-center gap-4">
-            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 rounded-full">
+      <section className="py-12 bg-gradient-to-r from-[#1c2b4d] to-[#303e4f] text-amber-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-wrap justify-center gap-4">
+            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 rounded-full">
               All
             </button>
-            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 rounded-full">
+            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 rounded-full">
               Web Development
             </button>
-            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 rounded-full">
+            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 rounded-full">
               Mobile App
             </button>
-            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 rounded-full">
+            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 rounded-full">
               Cloud Solutions
             </button>
-            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 rounded-full">
+            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 rounded-full">
               Healthcare Tech
             </button>
-            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 rounded-full">
+            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 rounded-full">
               AI &amp; ML
             </button>
-            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 rounded-full">
+            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 rounded-full">
               IoT Solutions
             </button>
           </div>
@@ -348,19 +348,19 @@ const Portfolio: FC = () => {
           </div>
         </div>
       </section>
-      <section class="py-20 bg-gradient-to-r from-[#1c2b4d] to-[#40556e]">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="text-center mb-16">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-100 mb-4">
+      <section className="py-20 bg-gradient-to-r from-[#1c2b4d] to-[#40556e]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-100 mb-4">
               Our Development Process
             </h2>
-            <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-400 max-w-2xl mx-auto">
               We follow a proven process to ensure successful project delivery
             </p>
           </div>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div class="text-center">
-              <div class="w-16 h-16 rounded-full bg-orange-100 text-orange-600 flex items-center justify-center mx-auto mb-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="w-16 h-16 rounded-full bg-orange-100 text-orange-600 flex items-center justify-center mx-auto mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -371,20 +371,20 @@ const Portfolio: FC = () => {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="lucide lucide-eye w-8 h-8"
+                  className="lucide lucide-eye w-8 h-8"
                 >
                   <path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"></path>
                   <circle cx="12" cy="12" r="3"></circle>
                 </svg>
               </div>
-              <h3 class="font-bold text-amber-200 text-lg mb-2">Discovery &amp; Planning</h3>
-              <p class="text-gray-400">
+              <h3 className="font-bold text-amber-200 text-lg mb-2">Discovery &amp; Planning</h3>
+              <p className="text-gray-400">
                 We start by understanding your business goals and project
                 requirements to create a detailed plan.
               </p>
             </div>
-            <div class="text-center">
-              <div class="w-16 h-16 rounded-full bg-orange-100 text-orange-600 flex items-center justify-center mx-auto mb-4">
+            <div className="text-center">
+              <div className="w-16 h-16 rounded-full bg-orange-100 text-orange-600 flex items-center justify-center mx-auto mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -395,7 +395,7 @@ const Portfolio: FC = () => {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="lucide lucide-palette w-8 h-8"
+                  className="lucide lucide-palette w-8 h-8"
                 >
                   <circle
                     cx="13.5"
@@ -419,14 +419,14 @@ const Portfolio: FC = () => {
                   <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"></path>
                 </svg>
               </div>
-              <h3 class="font-bold text-amber-200  text-lg mb-2">Design &amp; Prototyping</h3>
-              <p class="text-gray-400">
+              <h3 className="font-bold text-amber-200  text-lg mb-2">Design &amp; Prototyping</h3>
+              <p className="text-gray-400">
                 Our design team creates wireframes and prototypes to ensure the
                 solution meets your expectations.
               </p>
             </div>
-            <div class="text-center">
-              <div class="w-16 h-16 rounded-full bg-orange-100 text-orange-600 flex items-center justify-center mx-auto mb-4">
+            <div className="text-center">
+              <div className="w-16 h-16 rounded-full bg-orange-100 text-orange-600 flex items-center justify-center mx-auto mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -437,20 +437,20 @@ const Portfolio: FC = () => {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="lucide lucide-code w-8 h-8"
+                  className="lucide lucide-code w-8 h-8"
                 >
                   <polyline points="16 18 22 12 16 6"></polyline>
                   <polyline points="8 6 2 12 8 18"></polyline>
                 </svg>
               </div>
-              <h3 class="font-bold text-amber-200  text-lg mb-2">Development &amp; Testing</h3>
-              <p class="text-gray-400">
+              <h3 className="font-bold text-amber-200  text-lg mb-2">Development &amp; Testing</h3>
+              <p className="text-gray-400">
                 Our expert developers build the solution using the latest
                 technologies and conduct rigorous testing.
               </p>
             </div>
-            <div class="text-center">
-              <div class="w-16 h-16 rounded-full bg-orange-100 text-orange-600 flex items-center justify-center mx-auto mb-4">
+            <div className="text-center">
+              <div className="w-16 h-16 rounded-full bg-orange-100 text-orange-600 flex items-center justify-center mx-auto mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -461,13 +461,13 @@ const Portfolio: FC = () => {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="lucide lucide-cloud w-8 h-8"
+                  className="lucide lucide-cloud w-8 h-8"
                 >
                   <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path>
                 </svg>
               </div>
-              <h3 class="font-bold text-amber-200  text-lg mb-2">Deployment &amp; Support</h3>
-              <p class="text-gray-400">
+              <h3 className="font-bold text-amber-200  text-lg mb-2">Deployment &amp; Support</h3>
+              <p className="text-gray-400">
                 We deploy the solution to your environment and provide ongoing
                 support and maintenance.
               </p>
@@ -475,23 +475,23 @@ const Portfolio: FC = () => {
           </div>
         </div>
       </section>
-      <section class="py-20 bg-gradient-to-r from-[#0a1a3d] to-[#303e4f] text-white">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 class="text-3xl md:text-4xl font-bold mb-6">
+      <section className="py-20 bg-gradient-to-r from-[#0a1a3d] to-[#303e4f] text-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Transform Your Business?
           </h2>
-          <p class="text-xl mb-8 opacity-90">
+          <p className="text-xl mb-8 opacity-90">
             Let's discuss your project and explore how our expertise can help
             you achieve your goals.
           </p>
-          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="/contact">
-              <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-11 rounded-md px-8 py-3 bg-white text-orange-600 hover:bg-orange-50">
+              <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-11 rounded-md px-8 py-3 bg-white text-orange-600 hover:bg-orange-50">
                 Get In Touch
               </button>
             </a>
             <a href="/services">
-              <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-secondary h-11 rounded-md px-8 py-3 border-white text-black bg-amber-500 hover:bg-white hover:text-orange-600">
+              <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-secondary h-11 rounded-md px-8 py-3 border-white text-black bg-amber-500 hover:bg-white hover:text-orange-600">
                 View Services
               </button>
             </a>

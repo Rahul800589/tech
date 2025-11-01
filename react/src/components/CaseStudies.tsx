@@ -17,21 +17,21 @@ import { FC } from "react";
 const CaseStudies: FC = () => {
   return (
     <>
-     <section class="relative py-32 bg-gradient-to-r from-[#1c2b4d] to-[#303e4f]">
-  <div class="absolute inset-0"></div>
-  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+     <section className="relative py-32 bg-gradient-to-r from-[#1c2b4d] to-[#303e4f]">
+  <div className="absolute inset-0"></div>
+  <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
       Success Stories
     </h1>
-    <p class="text-xl text-white/90 mb-10 max-w-4xl mx-auto leading-relaxed">
+    <p className="text-xl text-white/90 mb-10 max-w-4xl mx-auto leading-relaxed">
       Discover how we've helped businesses across industries achieve
       remarkable transformations through innovative technology solutions.
       These real-world case studies showcase the tangible impact of our
       expertise and commitment to client success.
     </p>
 
-    <div class="flex flex-col sm:flex-row gap-6 justify-center">
-      <button class="border border-amber-50 text-amber-100 inline-flex items-center justify-center gap-2 whitespace-nowrap h-11 rounded-md  bg-white/10 backdrop-blur-sm text-[#1c2b4d] bg-gray-200 px-10 py-4 text-lg font-semibold shadow-lg">
+    <div className="flex flex-col sm:flex-row gap-6 justify-center">
+      <button className="border border-amber-50 text-amber-100 inline-flex items-center justify-center gap-2 whitespace-nowrap h-11 rounded-md  bg-white/10 backdrop-blur-sm text-[#1c2b4d] bg-gray-200 px-10 py-4 text-lg font-semibold shadow-lg">
         Explore Case Studies
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -43,14 +43,14 @@ const CaseStudies: FC = () => {
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
-          class="lucide lucide-arrow-right ml-2 h-5 w-5"
+          className="lucide lucide-arrow-right ml-2 h-5 w-5"
         >
           <path d="M5 12h14"></path>
           <path d="m12 5 7 7-7 7"></path>
         </svg>
       </button>
 
-      <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium h-11 rounded-md border-2 border-white text-white hover: bg-white/10 backdrop-blur-sm hover:text-[#1c2b4d] transition px-10 py-4 text-lg backdrop-blur-sm">
+      <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium h-11 rounded-md border-2 border-white text-white hover: bg-white/10 backdrop-blur-sm hover:text-[#1c2b4d] transition px-10 py-4 text-lg backdrop-blur-sm">
         Start Your Success Story
       </button>
     </div>
@@ -81,20 +81,20 @@ const CaseStudies: FC = () => {
 </section>
 
 
-      <section class="py-24 bg-gradient-to-r from-[#1a2940] to-[#24344d]
+      <section className="py-24 bg-gradient-to-r from-[#1a2940] to-[#24344d]
 ">
-        <div class=" max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="text-center mb-20">
-            <h2 class="text-4xl md:text-5xl font-bold text-gray-100 mb-6">
+        <div className=" max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-20">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-100 mb-6">
               Transformative Case Studies
             </h2>
-            <p class="text-xl text-gray-400 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-400 max-w-3xl mx-auto">
               Real challenges, innovative solutions, and measurable results that
               demonstrate our commitment to delivering exceptional value to our
               clients
             </p>
           </div>
-          <div class=" space-y-16">
+          <div className=" space-y-16">
              <div className="rounded-lg text-card-foreground overflow-hidden hover:shadow-2xl transition-all duration-500 border-0 shadow-lg group   bg-white/10 backdrop-blur-sm/10 backdrop-blur-sm ring-2 ring-orange-200">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
         {/* LEFT: IMAGE SECTION */}
@@ -1044,19 +1044,19 @@ const CaseStudies: FC = () => {
           </div>
         </div>
       </section>
-      <section class="py-24 bg-gradient-to-r from-[#1a2940] to-[#212d41]
+      <section className="py-24 bg-gradient-to-r from-[#1a2940] to-[#212d41]
  text-white">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 class="text-4xl md:text-5xl font-bold mb-8">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-4xl md:text-5xl font-bold mb-8">
             Ready to Write Your Success Story?
           </h2>
-          <p class="text-xl mb-12 opacity-90 max-w-3xl mx-auto">
+          <p className="text-xl mb-12 opacity-90 max-w-3xl mx-auto">
             Join our growing list of successful clients who have transformed
             their businesses with our innovative solutions. Let's discuss how we
             can help you achieve similar results.
           </p>
-          <div class="flex flex-col sm:flex-row gap-6 justify-center mb-12">
-            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-11 rounded-md   bg-white/10 backdrop-blur-sm/10 backdrop-blur-sm text-orange-600 hover:bg-orange-50 px-12 py-6 text-xl font-semibold">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
+            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-11 rounded-md   bg-white/10 backdrop-blur-sm/10 backdrop-blur-sm text-orange-600 hover:bg-orange-50 px-12 py-6 text-xl font-semibold">
               Start Your Transformation
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -1068,7 +1068,7 @@ const CaseStudies: FC = () => {
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                class="lucide lucide-arrow-right ml-2 h-6 w-6"
+                className="lucide lucide-arrow-right ml-2 h-6 w-6"
               >
                 <path d="M5 12h14"></path>
                 <path d="m12 5 7 7-7 7"></path>
@@ -1076,13 +1076,13 @@ const CaseStudies: FC = () => {
             </button>
             <a href="/contact">
               {" "}
-              <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-secondary h-11 rounded-md border-2 border-white text-black hover:  bg-white/10 backdrop-blur-sm/10 backdrop-blur-sm/10 px-12 py-6 text-xl backdrop-blur-sm">
+              <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-secondary h-11 rounded-md border-2 border-white text-black hover:  bg-white/10 backdrop-blur-sm/10 backdrop-blur-sm/10 px-12 py-6 text-xl backdrop-blur-sm">
                 Schedule Free Consultation
               </button>
             </a>
           </div>
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div class="  bg-white/10 backdrop-blur-sm/10 backdrop-blur-sm/10 backdrop-blur-sm rounded-xl p-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div className="  bg-white/10 backdrop-blur-sm/10 backdrop-blur-sm/10 backdrop-blur-sm rounded-xl p-6">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -1093,17 +1093,17 @@ const CaseStudies: FC = () => {
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                class="lucide lucide-circle-check-big h-12 w-12 mx-auto mb-4"
+                className="lucide lucide-circle-check-big h-12 w-12 mx-auto mb-4"
               >
                 <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
                 <path d="m9 11 3 3L22 4"></path>
               </svg>
-              <h3 class="font-bold text-lg mb-2">Proven Methodology</h3>
-              <p class="text-white/80">
+              <h3 className="font-bold text-lg mb-2">Proven Methodology</h3>
+              <p className="text-white/80">
                 Battle-tested processes that deliver consistent results
               </p>
             </div>
-            <div class="  bg-white/10 backdrop-blur-sm/10 backdrop-blur-sm/10 backdrop-blur-sm rounded-xl p-6">
+            <div className="  bg-white/10 backdrop-blur-sm/10 backdrop-blur-sm/10 backdrop-blur-sm rounded-xl p-6">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -1114,17 +1114,17 @@ const CaseStudies: FC = () => {
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                class="lucide lucide-award h-12 w-12 mx-auto mb-4"
+                className="lucide lucide-award h-12 w-12 mx-auto mb-4"
               >
                 <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
                 <circle cx="12" cy="8" r="6"></circle>
               </svg>
-              <h3 class="font-bold text-lg mb-2">Industry Recognition</h3>
-              <p class="text-white/80">
+              <h3 className="font-bold text-lg mb-2">Industry Recognition</h3>
+              <p className="text-white/80">
                 Award-winning solutions recognized by industry leaders
               </p>
             </div>
-            <div class="  bg-white/10 backdrop-blur-sm/10 backdrop-blur-sm/10 backdrop-blur-sm rounded-xl p-6">
+            <div className="  bg-white/10 backdrop-blur-sm/10 backdrop-blur-sm/10 backdrop-blur-sm rounded-xl p-6">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -1135,13 +1135,13 @@ const CaseStudies: FC = () => {
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                class="lucide lucide-trending-up h-12 w-12 mx-auto mb-4"
+                className="lucide lucide-trending-up h-12 w-12 mx-auto mb-4"
               >
                 <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
                 <polyline points="16 7 22 7 22 13"></polyline>
               </svg>
-              <h3 class="font-bold text-lg mb-2">Measurable Impact</h3>
-              <p class="text-white/80">
+              <h3 className="font-bold text-lg mb-2">Measurable Impact</h3>
+              <p className="text-white/80">
                 Quantifiable results that drive real business value
               </p>
             </div>

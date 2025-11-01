@@ -1,6 +1,6 @@
 "use client";
 
-import { FC } from "react";
+import React, { FC } from "react";
 import {
   Star,
   Code,
@@ -22,7 +22,10 @@ interface ServiceCardProps {
   description: string;
   price: string;
   features: string[];
-  icon: JSX.Element;
+  // icon: React.ReactNode;
+
+
+  icon: React.ReactNode;
   popular?: boolean;
 }
 

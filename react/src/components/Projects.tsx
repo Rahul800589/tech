@@ -112,14 +112,14 @@ const Projects: FC = () => {
 
   return (
     <>
-     <section class="py-32 lg:py-32 bg-gradient-to-r from-[#1a2940] to-[#24344d]
+     <section className="py-32 lg:py-32 bg-gradient-to-r from-[#1a2940] to-[#24344d]
  h-[400px]">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center">
-      <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
-        Our<span class="ml-6 text-orange-400">Projects</span>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center">
+      <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
+        Our<span className="ml-6 text-orange-400">Projects</span>
       </h1>
-      <p class="text-xl text-white/80 mb-8 max-w-3xl mx-auto">
+      <p className="text-xl text-white/80 mb-8 max-w-3xl mx-auto">
         Explore our portfolio of successful projects that showcase our
         expertise in delivering innovative solutions across various
         industries.
@@ -128,59 +128,59 @@ const Projects: FC = () => {
   </div>
 </section>
 
-    <section class="py-16 bg-gradient-to-r from-[#1c2b4d] to-[#1e2a38]">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+    <section className="py-16 bg-gradient-to-r from-[#1c2b4d] to-[#1e2a38]">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
       <div>
-        <div class="text-3xl md:text-4xl font-bold text-yellow-400 mb-2">
+        <div className="text-3xl md:text-4xl font-bold text-yellow-400 mb-2">
           15+
         </div>
-        <div class="text-white/80">Projects Completed</div>
+        <div className="text-white/80">Projects Completed</div>
       </div>
       <div>
-        <div class="text-3xl md:text-4xl font-bold text-orange-400 mb-2">
+        <div className="text-3xl md:text-4xl font-bold text-orange-400 mb-2">
           50+
         </div>
-        <div class="text-white/80">Happy Clients</div>
+        <div className="text-white/80">Happy Clients</div>
       </div>
       <div>
-        <div class="text-3xl md:text-4xl font-bold text-indigo-300 mb-2">
+        <div className="text-3xl md:text-4xl font-bold text-indigo-300 mb-2">
           5+
         </div>
-        <div class="text-white/80">Industries Served</div>
+        <div className="text-white/80">Industries Served</div>
       </div>
       <div>
-        <div class="text-3xl md:text-4xl font-bold text-green-400 mb-2">
+        <div className="text-3xl md:text-4xl font-bold text-green-400 mb-2">
           98%
         </div>
-        <div class="text-white/80">Success Rate</div>
+        <div className="text-white/80">Success Rate</div>
       </div>
     </div>
   </div>
 </section>
 
-      <section class="py-8 bg-gradient-to-r from-[#19243d] to-[#2d3a4a] text-amber-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="flex flex-wrap justify-center gap-2">
-            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground hover:bg-primary/90 h-9 rounded-md px-3 bg-gradient-to-r from-yellow-600 to-orange-600">
+      <section className="py-8 bg-gradient-to-r from-[#19243d] to-[#2d3a4a] text-amber-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-wrap justify-center gap-2">
+            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground hover:bg-primary/90 h-9 rounded-md px-3 bg-gradient-to-r from-yellow-600 to-orange-600">
               All
             </button>
-            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3">
+            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3">
               Web Application
             </button>
-            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3">
+            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3">
               Mobile Application
             </button>
-            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3">
+            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3">
               Data Analytics
             </button>
-            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3">
+            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3">
               Healthcare Software
             </button>
-            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3">
+            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3">
               Education Technology
             </button>
-            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3">
+            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3">
               IoT Platform
             </button>
           </div>
@@ -263,20 +263,20 @@ const Projects: FC = () => {
 
       </div>
     </section>
-      <section class="py-20 bg-gradient-to-r from-[#1c2b4d] to-[#1a2532] text-white">
-  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h2 class="text-3xl md:text-4xl font-bold mb-6">
+      <section className="py-20 bg-gradient-to-r from-[#1c2b4d] to-[#1a2532] text-white">
+  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 className="text-3xl md:text-4xl font-bold mb-6">
       Ready to Start Your Project?
     </h2>
-    <p class="text-xl mb-8 opacity-90">
+    <p className="text-xl mb-8 opacity-90">
       Let's discuss your project requirements and create something amazing
       together. We're excited to bring your vision to life.
     </p>
 
-    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+    <div className="flex flex-col sm:flex-row gap-4 justify-center">
       <a href="/contact">
         <button
-          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#1c2b4d] bg-white text-[#1c2b4d] hover:bg-gray-100 h-11 rounded-md px-8 py-3"
+          className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#1c2b4d] bg-white text-[#1c2b4d] hover:bg-gray-100 h-11 rounded-md px-8 py-3"
         >
           Start Your Project
           <svg
@@ -289,7 +289,7 @@ const Projects: FC = () => {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-arrow-right ml-2 h-5 w-5"
+            className="lucide lucide-arrow-right ml-2 h-5 w-5"
           >
             <path d="M5 12h14"></path>
             <path d="m12 5 7 7-7 7"></path>
@@ -299,7 +299,7 @@ const Projects: FC = () => {
 
       <a href="/services">
         <button
-          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-bold transition-colors border border-white text-white hover:bg-white hover:text-[#1c2b4d] h-11 rounded-md px-8 py-3"
+          className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-bold transition-colors border border-white text-white hover:bg-white hover:text-[#1c2b4d] h-11 rounded-md px-8 py-3"
         >
           View Services
         </button>

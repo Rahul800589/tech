@@ -30,7 +30,8 @@ const ModuleCard: React.FC<{ title: string; description: string; icon?: React.Re
   </div>
 );
 
-export default function HealthcareManagementSystem(): JSX.Element {
+// export default function HealthcareManagementSystem(): JSX.Element {
+export default function HealthcareManagementSystem() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#06121a] to-[#0f2430] text-white py-32 px-4">
       <div className="max-w-6xl mx-auto">

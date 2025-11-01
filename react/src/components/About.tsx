@@ -6,7 +6,6 @@ import { Linkedin, Github, Mail } from "lucide-react";
 import { useNavigate } from 'react-router-dom'; 
 
 const About: React.FC = () => {
-  // --- Data and Navigation Logic ---
   const navigate = useNavigate();
 
   const teamMembers = [
@@ -19,7 +18,6 @@ const About: React.FC = () => {
       linkedin: 'https://www.linkedin.com/in/pramod-saini-0577a5229/',
       mail: 'mailto:pramod@ats global tech.com',
       github: 'https://github.com/Pramod-saini',
-      // पहले मेंबर के लिए नेविगेशन पाथ
       navigationPath: '/team-members', 
     },
     {
@@ -31,7 +29,6 @@ const About: React.FC = () => {
       linkedin: 'https://www.linkedin.com/in/aadarsh-sharma-4a5aba336/',
       mail: 'mailto:aadarsh@ats global tech.com',
       github: 'https://github.com/Aadarsh1511',
-      // दूसरे मेंबर के लिए नेविगेशन पाथ
       navigationPath: '/team-members2', 
     },
     {
@@ -43,7 +40,6 @@ const About: React.FC = () => {
       linkedin: 'https://linkedin.com/in/akshmat243',
       mail: 'mailto:aakash@ats global tech.com',
       github: 'https://github.com/akshmat243',
-      // तीसरे मेंबर के लिए नेविगेशन पाथ
       navigationPath: '/team-members3',
     },
     {
@@ -55,20 +51,13 @@ const About: React.FC = () => {
       linkedin: 'https://www.linkedin.com/in/ram-parik -22411a308',
       mail: 'mailto:raj@ats global tech.com',
       github: 'https://share.google/tKqAjkPqBtKgtdqOJ', 
-      // चौथे मेंबर के लिए नेविगेशन पाथ
       navigationPath: '/team-members4',
     },
   ];
 
-  // यह फंक्शन अब अलग-अलग राउट्स पर नेविगेट करने के लिए इस्तेमाल नहीं होगा।
-  // const handleViewPortfolio = () => {
-  //   navigate(portfolioPath); 
-  // };
-  // --- END Data and Navigation Logic ---
-
+ 
 
   return (
-    // 🌈 Entire page background gradient
     <div
       className="min-h-screen bg-gradient-to-r from-[#1a2e49] to-[#32445b]
   text-white"

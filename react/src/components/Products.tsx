@@ -27,7 +27,9 @@ interface Product {
   id: number;
   title: string;
   category: string;
-  icon: JSX.Element;
+  icon: React.ReactNode;
+
+
   description: string;
   rating: number;
   users: string;

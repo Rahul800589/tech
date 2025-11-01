@@ -32,7 +32,8 @@ const FeatureCard: React.FC<{ title: string; text: string; icon?: React.ReactNod
   );
 };
 
-export default function ECommerceModernization(): JSX.Element {
+// export default function ECommerceModernization(): JSX.Element {
+export default function ECommerceModernization() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#071026] to-[#0f2233] text-white py-32 px-4">
       <div className="max-w-7xl mx-auto">
